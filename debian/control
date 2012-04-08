@@ -1,0 +1,12 @@
+Source: python-ordereddict
+Section: python
+Priority: extra
+Maintainer: Joe Stump <joe@joestump.net>
+Build-Depends: cdbs, debhelper (>= 6), python (>= 2.5), python-support, python-setuptools
+Standards-Version: 3.8.3
+Homepage: http://pypi.python.org/pypi/ordereddict
+
+Package: python-ordereddict
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, python (>= 2.5)
+Description: A drop-in substitute for Py2.7's new collections.OrderedDict that works in Python 2.4-2.6.
